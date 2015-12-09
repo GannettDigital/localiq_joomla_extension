@@ -1,11 +1,11 @@
 <?php
 ######################################################################
-# ReachLocal Capture          	          	          	             #
-# Copyright (C) 2015 by ReachLocal, Inc.   	   	   	                 #
-# Homepage   : www.reachlocal.com		   	   	   	   	   	   		 #
-# Author     : ReachLocal, Inc.	    		   	   	   	   	   	   	 #
-# Email      : support@reachlocal.com 	   	   	   	   	   	   	     #
-# Version    : 1.0.3.0                        	   	    	   	   	 #
+# ReachLocal Capture                                                 #
+# Copyright (C) 2015 by ReachLocal, Inc.                             #
+# Homepage   : www.reachlocal.com                                    #
+# Author     : ReachLocal, Inc.                                      #
+# Email      : support@reachlocal.com                                #
+# Version    : 1.0.3.0                                               #
 # License    : http://www.gnu.org/copyleft/gpl.html GNU/GPL          #
 ######################################################################
 
