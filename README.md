@@ -1,9 +1,9 @@
-# ReachLocal Joomla 2.5 Extension 
+# ReachLocal Joomla 3.0 Extension
 
 A Joomla Extension to add ReachEdge Tracking.
 
 ## Downloading ##
-- Download or copy url to the zip file from here:  [Latest Release](https://github.com/reachlocal/reachlocal_joomla_25_extension/releases/latest)
+- Download or copy url to the zip file from here:  [Latest Release](https://github.com/reachlocal/reachlocal_joomla_30_extension/releases/latest)
 
 ## Installation ##
 
