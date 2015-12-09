@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="1.0.3.0" type="plugin" group="system">
+	<name>System - ReachLocal Tracking Code</name>
+	<author>ReachLocal, Inc.</author>
+	<creationDate>January 2015</creationDate>
+	<copyright>Copyright (C) 2015 ReachLocal. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>support@reachlocal.com</authorEmail>
+	<authorUrl>reachlocal.com</authorUrl>
+	<version>1.0.3.0</version>
+	<description>This plugin puts the ReachLocal tracking code on all Website pages.</description>
+	<files>
+		<filename plugin="reachlocaltracking">reachlocaltracking.php</filename>
+	</files>
+	<params>
+		<param name="reachlocal_tracking_id" type="text" default="" label="ReachLocal Tracking ID" description="This is the ReachLocal tracking ID from your ReachLocal account. The format is: 00000000-0000-0000-0000-000000000000" />
+	</params>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field name="reachlocal_tracking_id" type="text" default="" label="ReachLocal Tracking ID" description="This is the ReachLocal tracking ID from your ReachLocal account. The format is: 00000000-0000-0000-0000-000000000000" />
+			</fieldset>
+		</fields>
+	</config>
+</extension>
