@@ -15,9 +15,9 @@ defined( '_JEXEC' ) or die( 'Restricted access' );
 jimport( 'joomla.plugin.plugin');
 jimport( 'joomla.html.parameter');
 
-class plgSystemReachLocalTracking extends JPlugin
+class plgSystemReachEdge extends JPlugin
 {
-	function plgSystemReachLocalTracking(&$subject, $config)
+	function plgSystemReachEdge(&$subject, $config)
 	{
 		parent::__construct($subject, $config);
 		$this->_plugin = JPluginHelper::getPlugin( 'system', 'reachedge' );
