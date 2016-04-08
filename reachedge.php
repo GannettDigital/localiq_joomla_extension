@@ -5,7 +5,7 @@
 # Homepage   : www.reachlocal.com                                    #
 # Author     : ReachLocal, Inc.                                      #
 # Email      : support@reachlocal.com                                #
-# Version    : 1.0.3.0                                               #
+# Version    : 1.0.4.0                                               #
 # License    : http://www.gnu.org/copyleft/gpl.html GNU/GPL          #
 ######################################################################
 
