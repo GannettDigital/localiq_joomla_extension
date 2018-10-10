@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<extension version="1.0.5.0" type="plugin" group="system">
-	<name>System - ReachEdge</name>
+<extension version="1.1.0.0" type="plugin" group="system">
+	<name>System - LOCALiQ Tracking Code</name>
 	<author>ReachLocal, Inc.</author>
 	<creationDate>January 2015</creationDate>
 	<copyright>Copyright (C) 2015 ReachLocal. All rights reserved.</copyright>
@@ -8,17 +8,17 @@
 	<authorEmail>support@reachlocal.com</authorEmail>
 	<authorUrl>reachlocal.com</authorUrl>
 	<version>1.0.5.0</version>
-	<description>This plugin puts the ReachEdge tracking code on all Website pages.</description>
+	<description>This plugin puts the LOCALiQ tracking code on all Website pages.</description>
 	<files>
 		<filename plugin="reachedge">reachedge.php</filename>
 	</files>
 	<params>
-		<param name="reachedge_site_id" type="text" default="" label="ReachEdge Site ID" description="This is the Site ID from your ReachEdge account. The format is: 00000000-0000-0000-0000-000000000000" />
+		<param name="reachedge_site_id" type="text" default="" label="ReachEdge Site ID" description="This is the Site ID from your LOCALiQ account. The format is: 00000000-0000-0000-0000-000000000000" />
 	</params>
 	<config>
 		<fields name="params">
 			<fieldset name="basic">
-				<field name="reachedge_site_id" type="text" default="" label="ReachEdge Site ID" description="This is the Site ID from your ReachEdge account. The format is: 00000000-0000-0000-0000-000000000000" />
+				<field name="reachedge_site_id" type="text" default="" label="ReachEdge Site ID" description="This is the Site ID from your LOCALiQ account. The format is: 00000000-0000-0000-0000-000000000000" />
 			</fieldset>
 		</fields>
 	</config>
