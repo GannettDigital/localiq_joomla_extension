@@ -13,12 +13,12 @@
 		<filename plugin="reachedge">reachedge.php</filename>
 	</files>
 	<params>
-		<param name="reachedge_site_id" type="text" default="" label="ReachEdge Site ID" description="This is the Site ID from your LOCALiQ account. The format is: 00000000-0000-0000-0000-000000000000" />
+		<param name="reachedge_site_id" type="text" default="" label="LOCALiQ Site ID" description="This is the Site ID from your LOCALiQ account. The format is: 00000000-0000-0000-0000-000000000000" />
 	</params>
 	<config>
 		<fields name="params">
 			<fieldset name="basic">
-				<field name="reachedge_site_id" type="text" default="" label="ReachEdge Site ID" description="This is the Site ID from your LOCALiQ account. The format is: 00000000-0000-0000-0000-000000000000" />
+				<field name="reachedge_site_id" type="text" default="" label="LOCALiQ Site ID" description="This is the Site ID from your LOCALiQ account. The format is: 00000000-0000-0000-0000-000000000000" />
 			</fieldset>
 		</fields>
 	</config>
