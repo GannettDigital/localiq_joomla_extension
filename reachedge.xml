@@ -7,7 +7,7 @@
 	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
 	<authorEmail>support@reachlocal.com</authorEmail>
 	<authorUrl>reachlocal.com</authorUrl>
-	<version>1.0.5.0</version>
+	<version>1.1.0.0</version>
 	<description>This plugin puts the LOCALiQ tracking code on all Website pages.</description>
 	<files>
 		<filename plugin="reachedge">reachedge.php</filename>

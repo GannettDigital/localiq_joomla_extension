@@ -1,12 +1,12 @@
 <?php
 ######################################################################
-# LOCALiQ Tracking Code                                                          #
+# LOCALiQ Tracking Code                                              #
 # Copyright (C) 2015 by ReachLocal, Inc.                             #
 # Homepage   : www.reachlocal.com                                    #
 # Author     : ReachLocal, Inc.                                      #
 # Email      : support@reachlocal.com                                #
 # Version    : 1.1.0.0                                               #
-# License    : http://www.gnu.org/copyleft/gpl.html GNU/GPL          #
+# License    : https://opensource.org/licenses/MIT                   #
 ######################################################################
 
 // no direct access
@@ -26,7 +26,7 @@ class plgSystemReachEdge extends JPlugin
 
 /**
  * Convert site_id from 'fc62c28f-3f38-4812-85c3-b3fe1329dba8' to '555/6e6/569/cfc4c23ac7e7ab663b58748.js';
- * Return '//cdn.rlets.com/capture_configs/fc6/2c2/8f3/f38481285c3b3fe1329dba8.js#asyncload'
+ * Return '//cdn.rlets.com/capture_configs/fc6/2c2/8f3/f38481285c3b3fe1329dba8.js'
  */
 	function reachedge_code_snippet_src($reachlocal_tracking_id) {
 		$site_id = array();
