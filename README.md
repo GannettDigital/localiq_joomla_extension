@@ -3,7 +3,7 @@
 A Joomla Extension to add ReachEdge Tracking.
 
 ## Downloading ##
-- Download or copy url to the zip file from here:  [Latest Release](https://github.com/reachlocal/reachlocal_joomla_30_extension/releases/latest)
+- Download or copy url to the zip file from here:  [Latest Release](https://github.com/reachlocal/localiq_joomla_30_extension/releases/latest)
 
 ## Installation ##
 
@@ -16,7 +16,7 @@ From this page you have three options: upload package file, install from directo
 1. Upload Package File: for this option all you have to do is browse for the (zipped) extension on your computer then after selecting your file all you have to do is press the "Upload File & Install" button and you're done.
 2. Install from Directory: This option will find the file in a directory of your web server which you can place there using an FTP server or just placing it there if your sever is locally hosted. A useful option if you get a timeout in the upload option because the file is too large, for instance.
    First you will need to unzip the extension into its own directory on the main server (make sure everyone can read it all). Since as a default joomla uses 'tmp' in its home directory for installs, it's easiest to use a subdirectory of that to place your installs, then you just add it to the default path presented. Finally click the "Install" button.
-3. Install from URL: This will install your extension from any URL as long as you give the full URL. (ex: https://github.com/reachlocal/reachlocal_joomla_30_extension/archive/V1.0.5.0.zip) The only problem with this option is depending on your connection speed and file size it can take quite a while to retrieve the file from an external site, which could cause installation issues.
+3. Install from URL: This will install your extension from any URL as long as you give the full URL. (ex: https://github.com/reachlocal/localiq_joomla_30_extension/archive/V1.0.5.0.zip) The only problem with this option is depending on your connection speed and file size it can take quite a while to retrieve the file from an external site, which could cause installation issues.
 
 After installation you should see the following success message:
 ![](/docs/install_3.png)
@@ -41,12 +41,12 @@ Click "Save & Close" and ReachLocal Tracking will now be active on your site.
 
 ## License
 
-The ReachLocal Tracking Extension is licensed under the GPL v2 or later.
+The ReachLocal Tracking Extension is licensed under the MIT license.
 
-> This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License, version 2, as published by the Free Software Foundation.
+> Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
-> This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+> The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
-> You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA
+> THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 A copy of the license is included in the Extension at `LICENSE.txt`.
