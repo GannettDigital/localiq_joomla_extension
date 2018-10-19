@@ -2,6 +2,11 @@
 
 A Joomla Extension to add ReachEdge Tracking.
 
+Tested up to: 3.8.13
+Stable tag: 1.1.1.0
+License: MIT
+License URI: https://opensource.org/licenses/MIT
+
 ## Downloading ##
 - Download or copy url to the zip file from here:  [Latest Release](https://github.com/reachlocal/localiq_joomla_30_extension/releases/latest)
 
@@ -16,7 +21,7 @@ From this page you have three options: upload package file, install from directo
 1. Upload Package File: for this option all you have to do is browse for the (zipped) extension on your computer then after selecting your file all you have to do is press the "Upload File & Install" button and you're done.
 2. Install from Directory: This option will find the file in a directory of your web server which you can place there using an FTP server or just placing it there if your sever is locally hosted. A useful option if you get a timeout in the upload option because the file is too large, for instance.
    First you will need to unzip the extension into its own directory on the main server (make sure everyone can read it all). Since as a default joomla uses 'tmp' in its home directory for installs, it's easiest to use a subdirectory of that to place your installs, then you just add it to the default path presented. Finally click the "Install" button.
-3. Install from URL: This will install your extension from any URL as long as you give the full URL. (ex: https://github.com/reachlocal/localiq_joomla_30_extension/archive/<VERSION>.zip) The only problem with this option is depending on your connection speed and file size it can take quite a while to retrieve the file from an external site, which could cause installation issues.
+3. Install from URL: This will install your extension from any URL as long as you give the full URL. (ex: https://github.com/reachlocal/localiq_joomla_30_extension/archive/VERSION.zip) The only problem with this option is depending on your connection speed and file size it can take quite a while to retrieve the file from an external site, which could cause installation issues.
 
 After installation you should see the following success message:
 ![](/docs/install_3.png)

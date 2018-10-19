@@ -17,7 +17,7 @@ jimport( 'joomla.html.parameter');
 
 class plgSystemReachEdge extends JPlugin
 {
-	function plgSystemReachEdge(&$subject, $config)
+	function __construct(&$subject, $config)
 	{
 		parent::__construct($subject, $config);
 		$this->_plugin = JPluginHelper::getPlugin( 'system', 'reachedge' );
