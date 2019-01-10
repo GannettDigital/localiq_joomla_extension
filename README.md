@@ -1,6 +1,6 @@
-# ReachEdge Joomla 3.0 Extension
+# LOCALiQ Joomla 3.0 Extension
 
-A Joomla Extension to add ReachEdge Tracking.
+A Joomla Extension to add LOCALiQ Tracking.
 
 Tested up to: 3.8.13
 Stable tag: 1.1.1.0
