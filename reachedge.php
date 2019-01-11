@@ -6,7 +6,7 @@
 # Author     : ReachLocal, Inc.                                      #
 # Email      : support@reachlocal.com                                #
 # Version    : 1.1.0.0                                               #
-# License    : https://opensource.org/licenses/MIT                   #
+# License    : http://www.gnu.org/copyleft/gpl.html GNU/GPL          #
 ######################################################################
 
 // no direct access
