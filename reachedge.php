@@ -6,7 +6,7 @@
 # Author     : ReachLocal, Inc.                                      #
 # Email      : support@reachlocal.com                                #
 # Version    : 1.1.0.0                                               #
-# License    : https://opensource.org/licenses/MIT                   #
+# License    : http://www.gnu.org/copyleft/gpl.html GNU/GPL          #
 ######################################################################
 
 // no direct access
@@ -17,7 +17,7 @@ jimport( 'joomla.html.parameter');
 
 class plgSystemReachEdge extends JPlugin
 {
-	function plgSystemReachEdge(&$subject, $config)
+	function __construct(&$subject, $config)
 	{
 		parent::__construct($subject, $config);
 		$this->_plugin = JPluginHelper::getPlugin( 'system', 'reachedge' );
