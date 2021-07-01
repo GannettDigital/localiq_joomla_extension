@@ -7,6 +7,13 @@ Stable tag: 1.1.1.0
 License: MIT
 License URI: https://opensource.org/licenses/MIT
 
+## Ownership
+
+- *Team Multi-User Chat:* https://usatnetwork-product.slack.com/messages/capture
+- *Confluence:* Needed
+- *Jira:* https://jira.gannett.com/projects/RCAP
+
+
 ## Downloading ##
 - Download or copy url to the zip file from here:  [Latest Release](https://github.com/reachlocal/localiq_joomla_30_extension/releases/latest)
 
