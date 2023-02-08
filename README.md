@@ -4,8 +4,8 @@ A Joomla Extension to add LOCALiQ Tracking.
 
 Tested up to: 3.8.13
 Stable tag: 1.1.1.0
-License: MIT
-License URI: https://opensource.org/licenses/MIT
+License: GPLv2
+License URI: https://opensource.org/licenses/GPL-2.0
 
 ## Ownership
 
@@ -53,7 +53,7 @@ Click "Save & Close" and ReachLocal Tracking will now be active on your site.
 
 ## License
 
-The ReachLocal Tracking Extension is licensed under the MIT license.
+The ReachLocal Tracking Extension is licensed under the GPLv2 license.
 
 > Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
