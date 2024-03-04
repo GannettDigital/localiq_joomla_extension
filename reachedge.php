@@ -56,18 +56,18 @@ class plgSystemReachEdge extends JPlugin
 		$reachedge_site_id = $this->params->get('reachedge_site_id', '');
 		$snippet = $this->reachedge_code_snippet_src($reachedge_site_id);
 
-		if($reachedge_site_id == '' || $mainframe->isAdmin() || strpos($_SERVER["PHP_SELF"], "index.php") === false)
+		if($reachedge_site_id == '' || $mainframe->isClient('administrator') || strpos($_SERVER["PHP_SELF"], "index.php") === false)
 		{
 			return;
 		}
 
-		$buffer = JResponse::getBody();
+		$buffer = $mainframe -> getBody();
 		$reachedge_javascript = "
 				<script type='text/javascript' src='".$snippet."' async='async'></script>	
 		";
 		
 		$buffer = str_replace ("</head>", $reachedge_javascript."</head>", $buffer);
-		JResponse::setBody($buffer);
+		$mainframe -> setBody($buffer);
 		return true;
 	}
 
