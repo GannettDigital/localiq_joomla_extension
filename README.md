@@ -3,8 +3,8 @@
 A Joomla Extension to add LOCALiQ Tracking.
 
 Compatible with Joomla 4.0 or above.
-Tested up to: 5.0.3
-Stable tag: 2.0.0.0
+Tested up to: 5.1
+Stable tag: 2.1.0.0
 License: GPLv2
 License URI: https://opensource.org/licenses/GPL-2.0
 

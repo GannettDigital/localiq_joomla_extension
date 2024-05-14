@@ -5,23 +5,25 @@
 # Homepage   : www.reachlocal.com                                    #
 # Author     : ReachLocal, Inc.                                      #
 # Email      : support@reachlocal.com                                #
-# Version    : 1.1.0.0                                               #
+# Version    : 2.0.0.0                                               #
 # License    : http://www.gnu.org/copyleft/gpl.html GNU/GPL          #
 ######################################################################
 
 // no direct access
-defined( '_JEXEC' ) or die( 'Restricted access' );
+defined('_JEXEC') || die;
 
-jimport( 'joomla.plugin.plugin');
-jimport( 'joomla.html.parameter');
+use Joomla\CMS\Plugin\CMSPlugin;
+use Joomla\CMS\Factory;
+use Joomla\CMS\Plugin\PluginHelper;
+use Joomla\Registry\Registry;
 
-class plgSystemReachEdge extends JPlugin
+class plgSystemReachEdge extends CMSPlugin
 {
 	function __construct(&$subject, $config)
 	{
 		parent::__construct($subject, $config);
-		$this->_plugin = JPluginHelper::getPlugin( 'system', 'reachedge' );
-		$this->_params = new JRegistry( $this->_plugin->params );
+		$this->_plugin = PluginHelper::importPlugin( 'reachedge' );
+		$this->_params = new Registry( $this->_plugin->params );
 	}
 
 /**
@@ -52,7 +54,7 @@ class plgSystemReachEdge extends JPlugin
 
 	function onAfterRender()
 	{
-		$mainframe = JFactory::getApplication();
+		$mainframe = Factory::getApplication();
 		$reachedge_site_id = $this->params->get('reachedge_site_id', '');
 		$snippet = $this->reachedge_code_snippet_src($reachedge_site_id);
 
@@ -61,7 +63,7 @@ class plgSystemReachEdge extends JPlugin
 			return;
 		}
 
-		$buffer = $mainframe -> getBody();
+		$buffer = Factory::getApplication() -> getBody();
 		$reachedge_javascript = "
 				<script type='text/javascript' src='".$snippet."' async='async'></script>	
 		";
