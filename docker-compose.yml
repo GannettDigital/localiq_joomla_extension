@@ -2,7 +2,7 @@ version: '3.1'
 
 services:
   joomla:
-    image: joomla:5.0.3
+    image: joomla:5.1
     platform: linux/arm64/v8
     restart: always
     links:
@@ -12,6 +12,8 @@ services:
     environment:
       JOOMLA_DB_HOST: joomladb
       JOOMLA_DB_PASSWORD: example
+    volumes:
+      - ./php.ini:/usr/local/etc/php/php.ini
 
   joomladb:
     image: mysql:8.0
@@ -19,3 +21,4 @@ services:
     restart: always
     environment:
       MYSQL_ROOT_PASSWORD: example
+    command: mysqld --innodb_use_native_aio=0

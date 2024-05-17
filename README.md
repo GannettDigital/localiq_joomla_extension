@@ -3,8 +3,8 @@
 A Joomla Extension to add LOCALiQ Tracking.
 
 Compatible with Joomla 4.0 or above.
-Tested up to: 5.0.3
-Stable tag: 2.0.0.0
+Tested up to: 5.1
+Stable tag: 2.1.0.0
 License: GPLv2
 License URI: https://opensource.org/licenses/GPL-2.0
 
@@ -16,7 +16,7 @@ License URI: https://opensource.org/licenses/GPL-2.0
 
 ## Building
 
-$ zip -r v2.0.0.0.zip ./localiq_joomla_30_extension  -x *.git*
+$ zip -r localiq_plugin_v2.1.0.0.zip ./localiq_joomla_extension -x ./localiq_joomla_extension/.git/\*
 
 ## Downloading ##
 - Download or copy url to the zip file from here:  [Latest Release](https://github.com/reachlocal/localiq_joomla_30_extension/releases/latest)
